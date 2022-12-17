@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tablas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/css/estilos_tablas.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <table>
+            <caption>Listado de personas </caption> <!--es el titulo-->
+            <tr><!-- se uniran las celdas de nombre y apellido-->
+                <th colspan="2">Nombre</th>
+                <!--<th>Apellido</th>-->
+                <th>email</th>
+            </tr>
+            <tr > 
+                <td >juan</td>
+                <td>gomez</td><!--expandimos los renglones hacia abajo-->
+                <td rowspan="2">gomez@mail.com</td>
+            </tr>
+            <tr>
+                <td>maria</td>
+                <td>lara</td>
+                <!--<td>maria@mail.com</td>-->
+            </tr>
+
+        </table>
+
+    </body>
+</html>

@@ -1,7 +1,30 @@
 h1{
-    color:blue;
+    color:hsl(4, 89%, 47%);
 }
 p{
-    color:aqua;
-    background-color:crimson;
+    color:rgb(234, 225, 225);
+    background-color:rgb(220, 20, 60);
 }
+
+a :link {
+
+    color:#fb8500;
+    text-decoration:none;
+}
+a:visited{
+    color:#219ebc;
+    text-decoration:none;
+}
+
+
+
+a:hover{
+    color:#8ecae6;
+    text-decoration: underline;
+}/*text-decoration: :none;   es para eliminar el subrrayado debajo */
+
+
+a:active{
+    color:#023097;
+
+}/* color al ponernos encima del elemento y que si lo subrraye*/

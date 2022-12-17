@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Formularios en HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    
+        <h1>Formularios en HTML</h1>
+        <!--  <form action={% url 'crear_repuesto' %}  method="post" target="_self">
+                target="_self" es para que la respuesta se visualice en la misma ventana 
+                en la que estamos trabajando // target="_blank" se abre una nueva ventana
+        {% csrf_token %} -->
+        <form action="mi_servidor" method="POST" autocomplete="off">
+            <!-- autocomplete="off" o "on" para que muestre opciones previamente ingresadas o no -->  
+            <fieldset>
+                <legend>Datos Persona</legend>
+                
+                <label for="nombre">Nombre:</label><br/>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu Nombre" required='True'/><br/>
+
+                <label for="apellido">Apellido:</label><br/>
+                <input type="text" id="apellido" name="apellido" placeholder="Escribe tu Apellido" required='True'/><br/>
+
+                <label for="password">Password:</label><br/>
+                <input type="password" id="password" name="password" required='True'/><br/>
+
+
+
+                <input type="submit" value="Enviar"/><br/>
+                <hr/>
+                <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar"/>
+            </fieldset >   
+        </form>

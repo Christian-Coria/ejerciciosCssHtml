@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Formularios en HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    
+        <h1>Formularios en HTML</h1>
+
+        <form method="POST">  
+            <!-- si ponemos <form novalidate> ninguno de los campos se va ha validar-->
+            <label for="nombre">Nombre:</label><br/>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu Nombre" required='True'/><br/>
+
+            <label for="apellido">Apellido:</label><br/>
+            <input type="text" id="apellido" name="apellido" placeholder="Escribe tu Apellido" required='True'/><br/>
+
+            <label for="password">Password:</label><br/>
+            <input type="password" id="password" name="password" required='True'/><br/>
+
+            <label for="autos">Marca de autos Favotita</label><br/>
+            <select id="autos" name="autos" > <!--agregando: multiple="true"- es para seleccionar mas de una opcion con ctrl + click-->
+                <option value="volvo">Volvo</option>
+                <option value="bmw">Bmw</option>
+                <option value="audi" selected="true">Audi</option>
+                <!-- selected="True"  hace que la primer opcion sea audi-->
+            </select><br/>
+
+            <label for="comentario">Comentario</label><br/>
+            <textarea id="comentario" name="comentario" rows="2" cols="30">Este es mi comentario</textarea>
+                                                        <!-- 2 renglones, 30 columnas de ej-->
+
+
+
+            <input type="submit" value="Enviar"/><br/>
+            <hr/>
+            <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar"/>
+        </form>
+
+
+
+    </body>
+</html>

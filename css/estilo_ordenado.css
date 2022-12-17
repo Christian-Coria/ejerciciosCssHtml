@@ -1,0 +1,18 @@
+ol{
+    list-style: none;
+    counter-reset: contador; /*reseteamos cada vez que se empiece una lista nueva*/
+
+}
+ol li{
+    counter-increment: contador; /*incrementamos en 1*/
+}
+/*::before agrega un elemento antes que se muestre el elemento*/
+/*::after al final agrega*/
+/*counter(contador) es una variable para iniciar el contador*/
+ol li::before{
+    content: 'Curso -' counter(contador) ') ';
+    color: #ff6f00;
+}
+ol li::after{
+    content: '- terminado' '.' ;
+}

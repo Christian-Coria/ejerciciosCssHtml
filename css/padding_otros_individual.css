@@ -1,0 +1,24 @@
+h1{
+    color:blue;
+    text-align: center;
+}
+p{
+    color:white;
+    background-color:crimson;
+    padding:15px;
+    border: 10px solid powderblue;
+    /*margin-top:40px;
+    margin-right:10px;
+    margin-bottom:20px;
+    margin-left:10px;*/
+    margin: 40px 10px 020px 10px;
+
+    /* margin:auto;      si aplicamos esto solo se aplicaria este estilo!!*/
+    margin:auto; /* centramos el elemento solo de manera horizontal*/
+    text-align: center; /* centramos el texto*/
+
+}
+/* aplicamos el estilo individuales en orden
+ superior, derecho, inferior, izquierdo
+ si el valor derecho es igual al izquierdo solo se indica un valor (el derecho)
+ lo mismo en superior he inferior, se indicaria solo el valor superior */
