@@ -1,0 +1,4 @@
+h1{
+    color: aqua;
+    text-align: center !important;
+} /*!important; le da prioridad a la hoja de estilo*/

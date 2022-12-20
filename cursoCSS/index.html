@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Universidad CSS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/cursoCSS/estilos_css/prioridad.css" rel="stylesheet">
+        <!-- definimos los estilos en el archivo head el cual tiene segunda 
+            prioridad ya que la tercer prioridad es la de la hoja de style-->
+        <style>
+            h1{
+                color:red;
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <header> <!--elementos inline tiene prioridad por lo que a contin comentamos
+            <h1 style="color:blue; text-align: center; font-size:100px">Universidad CSS</h1>-->
+            <h1>Universidad CSS</h1>
+        </header>
+
+    </body>
+</html>

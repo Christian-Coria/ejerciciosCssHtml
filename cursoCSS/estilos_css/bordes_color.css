@@ -1,0 +1,23 @@
+*{
+    text-align: center;
+}
+
+.rojo{
+
+    border: 10px solid firebrick;
+    
+}
+.rosa{
+    border: 10px dotted hotpink;
+    
+}
+.amarillo{
+    border: 10px double gold;
+}
+
+.azul{
+    border : 10px dashed turquoise;
+}
+a{
+    font-size: 70px;
+}

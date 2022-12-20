@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+}
+
+.solido{
+    border: solid red;
+    border-width: 10px; /* 10px es sup - 5px va a abos lados - 2px debajo*/
+    border-radius: 15px ; /* si agregamos mas valores modificamos esquinas*/
+}

@@ -1,0 +1,20 @@
+/* este es un selector universal
+ aplicado a toda la pagina*/
+*{
+    background-color: gold;
+}
+
+#parrafo{
+    color: crimson;
+    font-size: 20px;
+    
+}
+
+.clase-articulo{
+    text-align: center;
+
+
+}
+.texto-grande{
+    font-size: 50px;
+}

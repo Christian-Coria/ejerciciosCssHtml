@@ -1,0 +1,57 @@
+*{
+    /* se agrega porque el navegador de manera automatiza agrega
+     a los div u padding y un margin*/
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color:#639466
+}
+div{
+    text-align: center;
+    padding: 10px;
+    border: 15px solid #457b9d;
+    margin: auto; /* lo centra autom*/
+    max-width: 70px; /* asi se ajusta al tamaño
+                 de la pantalla si es menor*/
+                 /* tambien en vez de px se puede usar % */
+    max-height: 40px; /* sigue la misma logica */
+    background-color: #f1faee;
+    outline: 10px outset #479799; 
+    /* es el espacio entre el border 
+    y el margin */
+}
+
+article.interno{
+    margin: inherit; /*hereda del elemento padre que envuelve
+                 en este caso el div*/
+}
+.caja{
+    padding: 10px;
+    border: 15px solid #457b9d;
+    margin: 90px; /* se toma el margin mayor entre los elementos consecutivos*/
+    background-color: #b6e8a5;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    outline: 10px solid  #479799; /* es el espacio entre el border y el margin */
+    outline-offset: 10px;
+    /*box-sizing: 10px;    se usa para limitar el tamaño de la box*/
+
+}
+.caja2{
+    padding: 10px;
+    border: 15px solid #457b9d;
+    margin: 40px;
+    background-color: #b6e8a5;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    outline: 10px solid  #479799; /* es el espacio entre el border y el margin */
+    outline-offset: 10px;
+    /*box-sizing: 10px;    se usa para limitar el tamaño de la box*/
+
+}
+
