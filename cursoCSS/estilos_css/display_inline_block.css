@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: #457d9d;
+}
+div.contenedr{
+    width: 80%;
+    height: 200px;
+    overflow: auto;
+    margin: auto;
+    border: 3px dashed #a8dadc;
+}
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: larger;
+    background-color: #a8dadc;
+    border: 1px solid #457d9d;
+    height: 50px;
+    padding: 5px;
+    display: inline-block;
+
+}

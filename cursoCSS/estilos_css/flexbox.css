@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63046;
+}
+div.contenedor{
+    display: flex; /* acomodamos de manera horizontal 
+    los elementos uno a l lado del otro*/
+    background-color: blue;
+    /*flex-direction: row;
+    flex-wrap: wrap /* los elementos no quedan 
+    fuera sino que se acomodan*/
+    flex-flow: row wrap;
+    justify-content: center;/*acomodaos donde va ... end / space-beetwing y otros - centro izquierda*/
+    height: 300px;
+    align-items: center; /*alineamos los elementos a la parte superios- medio- inferior*/
+    align-content: center;  /*permite modificar de manera vertical como se acomodan los elementos*/
+
+    
+}
+div.contenedor > p{
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+    
+
+}

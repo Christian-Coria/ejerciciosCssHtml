@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    color: blanchedalmond;
+    background-color: black;
+}
+div.contenedor{
+    border: 3px dashed darkorange;
+    width: 30%;
+    height: 50px; 
+    overflow: auto; 
+    
+}
+div.contenedor.flotado{
+    float: left; /* se cargan en la misma linea a la izquierda*/
+}
+div.contenedor.flotado.contenedor1{
+    border: 3px dashed greenyellow;
+}
+div.contenedor.flotado.contenedor2{
+    border: 3px dashed rgb(149, 19, 127);
+    float: right;
+}
+div.contenedor.contenedor3{
+    clear: both; /*limpiamos la propiedad float anterior*/
+    border: 3px dashed rgb(94, 13, 6);
+    margin: auto;
+}

@@ -1,0 +1,23 @@
+h1, div, p, span{
+    border: 3px solid blueviolet;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px;
+   /* display: block; la caja abarca todo el ancho uno debajo del otro */
+   /*display: inline; solo abarca el tamaño del elemento y los posiciona uno al lado del otro*/
+   display: block;
+   /* modificamos span que es inline para que se comporte como block*/
+
+}
+div{
+    visibility: hidden; /*oculta el elemento pero reserva su lugar*/
+}
+a{
+    /* modificamos <a> que es inline para que se comporte como block*/
+    display: block;
+    /* display: none; oculta el elemento*/
+    text-align: right;
+}
+li{
+    display: inline;
+}

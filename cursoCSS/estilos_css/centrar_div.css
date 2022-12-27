@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    background-color: black;
+    color: aqua;
+}
+div{
+    /* max-width: 400px tambien se adapta a la pantalla
+    width: 50%; reducimos el tamaño para centrarlo -
+    - el usar % hace que se ajuste automaticamente al tamaño de pantalla*/
+    max-width: 50%;
+    border: 3px solid firebrick;
+    margin: auto; /* centramos el elemnto*/
+}

@@ -1,0 +1,48 @@
+h1{
+    color: blanchedalmond;
+    background-color: red;
+    text-align: center;
+}
+/*position: static es por defecto y no afecta left y top.
+            relative se mueve dependiendo lo especificado
+            top y left
+            otra forma de moverlo es bottom:10px
+
+    position: relative;
+    top: 100px; /* 100px hacia abajo*/
+    /*left: 50px; ....50 hacia el lado
+    max-width: 50%;
+    border: 3px solid firebrick;
+    margin: auto; */
+
+/*position: fixted; (o ajustado) 
+se ajusta al espacio disponible de la pantalla... no respeta 
+espacio de otros elementos  */
+/*
+    position: fixed;
+    top: 100px; /* 100px hacia abajo si lo ponemos en 0 se posiciona arriba*/
+    /*left: 50px; /*50 hacia el lado...si lo ponemos en 0 se posiciona arriba*/
+    /* con bottom:0 y right:0 se posiciona abajo a la derecha de manera fija
+    border: 3px solid firebrick;*/
+
+
+div.absoluto{
+    position: absolute; /* esta posicion se usa si trabajamos dentro de otro div*/
+    /*top:0; arriba a la derecha- si cambiamos en vez de op a bottom:0 es abajo a la derecha
+    right: 0;*/
+    bottom: 20px;
+    right: 30px;
+
+}
+div.relativo{
+    width: 500px;
+    height: 200px;
+    top:100px;
+    left:100px;
+    position: relative;
+    background-color: hotpink;
+    color: wheat;
+    border-radius: 3px solid blue;
+}
+    
+   

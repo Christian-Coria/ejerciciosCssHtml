@@ -1,0 +1,12 @@
+h1{
+    color: blanchedalmond;
+    background-color: red;
+    text-align: center;
+}
+
+div{
+    position: sticky; /* esta posicion se mantiene en pantalla aunque movamos el scroll pero no anda en internet explorer*/
+    position: -webkit-sticky; /* para que funcione en safary*/
+    top:0; /*arriba a la derecha- si cambiamos en vez de op a bottom:0 es abajo a la derecha*/
+    border: 3px solid firebrick;
+}

@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: beige;
+    background-color: brown;
+}
+div.contenedor{
+    border: 3px dashed darkorange;
+    width: 30%;
+    height: 50px; /* solo se usa overflow si tiene un alto del div*/
+    margin: auto ;
+    overflow: auto; /* agrega un scroll/ si fuera 
+    hidden se oculta lo sobrante/ auto va con scroll
+     pero solo cuando se necesite*/
+    
+}

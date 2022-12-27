@@ -1,0 +1,48 @@
+html{
+    height: auto;
+    min-height: 100%;
+    
+}
+body{
+    /*background: linear-gradient(#f72585, #3a0ca3);   de arriba a abajo*/
+    /*background: linear-gradient(to right,#f72585, #3a0ca3); /*de derecha a izquierda*/
+    background: linear-gradient(#24404d, #6dbff1, black); /*de arriba mas oscuro al medio y desp a negro*/
+    /*background: linear-gradient(to bottom right,#24404d, #6dbff1,black);   efecto como en diagonal*/
+    /*background: linear-gradient(190deg,#24404d, #6dbff1,black); se pasa el angulo ej 190deg*/
+    /*background: radial-gradient(circle,#24404d, #6dbef1d4,black); /*se pone del centro hacia afuera en circulo*/
+    color: #f1faee;
+}   
+h1{
+    
+    text-align: center;
+    text-shadow: 2px 2px 2px #081111;/*a derecha a abajo  y difumunado*/
+    color: #f3eaebfb;
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+    /* sombra eje x, eje y, difuminado(blour), tamaño, color*/
+    box-shadow: 2px 2px 2px 2px rgb(220, 205, 205) ;
+    color: #0e0d11f9;
+    border-radius: 15px;
+}px px 
+/* 1.0 es por defecto*/
+img{
+    opacity: 0.2;
+}
+img:hover{
+    opacity: 1.0;
+}
+div.cabecero{
+    background-color: #d6e7ecfa;
+}
+div.cuerpo{
+    padding-top: 2px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(46, 1, 1);
+}

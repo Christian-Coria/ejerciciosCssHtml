@@ -1,0 +1,16 @@
+body{
+    background-color: dodgerblue;/* hay que procurar que el fondo coincida el color con la imagen*/
+    color: cornsilk;
+    background-image: url('/media/wallpaperbetter.jpg'); 
+    background-repeat: no-repeat;
+    /*background-position: right top; se utiliza para ubicar omagenes*/
+    /*background-attachment: fixed; imagen de fondo fija */
+
+    /* asi se declarario todo en una linea menos el attachment*/
+    /*background: dodgerblue image('/media/wallpaperbetter.jpg') no-repeat right top;*/
+}
+h1{
+    text-align: center;
+    background-color: dodgerblue;
+    /*height: 1000px;*/
+}   
